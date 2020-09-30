@@ -1,0 +1,336 @@
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 990px) {
+    .about_app img {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 770px) {
+
+    .cart_fav {
+        width: 100%;
+        display: inline-block;
+    }
+
+
+    .cart {
+        float: left;
+        position: relative;
+        margin-top: 0px;
+    }
+
+    .favorit {
+        float: right;
+        padding-right: 30px;
+    }
+
+    #cart {
+        right: 0px;
+    }
+
+    .logo {
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    .contact_head {
+        float: right;
+        width: 70%;
+    }
+
+     /* General styles for all menus */
+     .cbp-spmenu {
+        background: #548a12;
+        position: fixed;
+        padding:0;
+        margin:0 !important;
+        overflow-x:hidden;
+        overflow-y:visible;
+        display:block;
+    }
+    .cbp-spmenu h3 {
+        color: #afdefa;
+        font-size: 1.9em;
+        padding: 20px;
+        margin: 0;
+        font-weight: 300;
+        background: #0d77b6;
+    }
+    .cbp-spmenu a {
+        display: block;
+    }
+    /* Orientation-dependent styles for the content of the menu */
+    .cbp-spmenu-vertical {
+        width: 260px;
+        height: 100%;
+        top: 0;
+        z-index: 1000;
+    }
+    .cbp-spmenu-horizontal {
+        width: 100%;
+        height: 150px;
+        left: 0;
+        z-index: 1000;
+        overflow: hidden;
+    }
+    .cbp-spmenu-horizontal h3 {
+        height: 100%;
+        width: 20%;
+        float: left;
+    }
+    .cbp-spmenu-horizontal a {
+        float: left;
+        width: 20%;
+        padding: 0.8em;
+        border-left: 1px solid #258ecd;
+    }
+    /* Vertical menu that slides from the left or right */
+    .cbp-spmenu-left {
+        left: -260px;
+    }
+    .cbp-spmenu-right {
+        right: -260px;
+    }
+    .cbp-spmenu-left.cbp-spmenu-open {
+        left: 0px;
+    }
+    .cbp-spmenu-right.cbp-spmenu-open {
+        right: 0px;
+    }
+    /* Horizontal menu that slides from the top or bottom */
+    .cbp-spmenu-top {
+        top: -150px;
+    }
+    .cbp-spmenu-bottom {
+        bottom: -150px;
+    }
+    .cbp-spmenu-top.cbp-spmenu-open {
+        top: 0px;
+    }
+    .cbp-spmenu-bottom.cbp-spmenu-open {
+        bottom: 0px;
+    }
+    /* Push classes applied to the body */
+    .cbp-spmenu-push {
+        overflow-x: hidden;
+        position: relative;
+        left: 0;
+    }
+    .cbp-spmenu-push-toright {
+        left: 260px;
+    }
+    .cbp-spmenu-push-toleft {
+        left: -260px;
+    }
+    /* Transitions */
+    .cbp-spmenu,
+    .cbp-spmenu-push {
+        -webkit-transition: all 1.3s ease;
+        -moz-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+    }
+
+    .navbar-default .navbar-nav>li>a {
+        color: #fff;
+        font-size: 13px;
+        margin-right: 20px;
+        font-weight: bold;
+    }
+
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+        color: #fffdfd;
+    }
+
+    .details_slider .img_details {
+        float: left;
+        display: none;
+    }
+
+    .slider .img_slider img {
+        width: 100%;
+        height: 420px;
+        position: relative;
+    }
+
+    .details_slider .text_slide {
+        float: right;
+        margin-top: 70px;
+    }
+
+   
+}
+
+
+@media (min-width: 770px) and (max-width: 990px) {
+    .slider .img_slider img {
+        width: 100%;
+        height: 420px;
+        position: relative;
+    }
+
+    .details_slider .text_slide {
+        float: right;
+        margin-top: 30px;
+        width: 40%;
+    }
+
+    .details_slider .img_details {
+        float: left;
+        width: 48%;
+    }
+
+}
+
+
+@media (max-width: 770px) {
+   
+}
+
+@media (min-width: 770px) { 
+    
+}
+
+@media (max-width: 990px) {
+    
+}
+
+@media (max-width: 450px) {
+    .copyright {text-align: center; }
+    .copyright p { float: inherit;}
+    .copyright a {float: inherit;width: 100%;display: block;}
+}
+
+@media (max-width: 430px) {
+    .shepherds {
+        text-align: center;
+        width: 100%;
+    }
+
+    .shepherds h3 {
+        float: inherit;
+    }
+
+    .shepherds img {
+        float: inherit;
+    }
+}
+
+
+@media (min-width: 990px) and (max-width: 1180px) {
+    header:after {
+        left: -85px;
+    }
+}
+
+
+@media (max-width:990px) {
+}
+  
+@media (max-width:400px) {
+}
+
+@media (max-width:500px) {
+    .phone_mail {
+        float: left;
+        display: none;
+    }
+
+    .fl_lef {
+        float: right;
+        margin-left: 30px;
+    }
+
+    .contact_head {
+        float: right;
+        width: 100%;
+    }
+
+    .cart {
+        float: right;
+        position: relative;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width:350px) {
+    .cart {
+    margin-top: 0px;
+}
+
+.logo {
+    padding-top: 5px;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    
+}
+  
+  .cart_project span {
+    color: #fff;
+    font-size: 16px;
+    display: none;
+}
+
+.cart_project {
+    background: #0d7a27;
+    padding: 15px 19px;
+}
+
+.project_1 {
+    background: #fff;
+    padding: 5px;
+    position: relative;
+    margin-bottom: 30px;
+    min-height: 350px;
+}
+
+.products .col-xs-6 {
+    padding: 2px;
+}
+
+.project_1 .details_project a {
+    color: #000;
+    font-size: 19px;
+    display: block;
+    height: 24px;
+    overflow: hidden;
+}
+
+
+.contact_head {
+    float: right;
+    width: 100%;
+    display: none;
+}
+
+.top_head {
+    width: 100%;
+    display: inline-block;
+    padding-top: 3px;
+    padding-bottom: 0px;
+}
+
+.fl_lef h3 {
+    font-size: 15px;
+    margin: 0;
+    margin-bottom: 2px;
+}
+
+}
+
+  
+
+
+
+
+
+
+
+
+
+
+
